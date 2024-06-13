@@ -11,3 +11,4 @@ RUN apt update -y &&\
     npm install 
     
 CMD ["node", "index.js"]
+USER 09812
